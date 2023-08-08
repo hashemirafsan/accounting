@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Scottlaurent\Accounting\Providers;
+namespace Fma\Accounting\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

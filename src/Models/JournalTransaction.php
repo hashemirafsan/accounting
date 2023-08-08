@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Scottlaurent\Accounting\Models;
+namespace Fma\Accounting\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

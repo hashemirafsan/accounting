@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Scottlaurent\Accounting\Services;
+namespace Fma\Accounting\Services;
 
 use Carbon\Carbon;
-use Scottlaurent\Accounting\Models\Journal;
+use Fma\Accounting\Models\Journal;
 use Money\Money;
 use Money\Currency;
-use Scottlaurent\Accounting\Exceptions\{InvalidJournalEntryValue,
+use Fma\Accounting\Exceptions\{InvalidJournalEntryValue,
     InvalidJournalMethod,
     DebitsAndCreditsDoNotEqual,
     TransactionCouldNotBeProcessed

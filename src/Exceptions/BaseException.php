@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Scottlaurent\Accounting\Exceptions;
+namespace Fma\Accounting\Exceptions;
 
 use Exception;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Scottlaurent\Accounting\ModelTraits;
+namespace Fma\Accounting\ModelTraits;
 
 use Illuminate\Database\Eloquent\Relations\MorphOne;
-use Scottlaurent\Accounting\Exceptions\JournalAlreadyExists;
-use Scottlaurent\Accounting\Models\Journal;
+use Fma\Accounting\Exceptions\JournalAlreadyExists;
+use Fma\Accounting\Models\Journal;
 
 trait AccountingJournal
 {

@@ -5,8 +5,8 @@ use Faker\Factory as Faker;
 use Models\User;
 use Models\Account;
 use Models\CompanyJournal;
-use Scottlaurent\Accounting\Models\Ledger;
-use \Scottlaurent\Accounting\Providers\AccountingServiceProvider;
+use Fma\Accounting\Models\Ledger;
+use Fma\Accounting\Providers\AccountingServiceProvider;
 
 abstract class BaseTest extends \Orchestra\Testbench\TestCase
 {

@@ -3,9 +3,9 @@
 // ensure we load our base file (PHPStorm Bug when using remote interpreter )
 require_once('BaseTest.php');
 
-use Scottlaurent\Accounting\Services\Accounting as AccountingService;
-use Scottlaurent\Accounting\Models\JournalTransaction;
-use \Scottlaurent\Accounting\Exceptions\{InvalidJournalMethod, InvalidJournalEntryValue, DebitsAndCreditsDoNotEqual};
+use Fma\Accounting\Services\Accounting as AccountingService;
+use Fma\Accounting\Models\JournalTransaction;
+use Fma\Accounting\Exceptions\{InvalidJournalMethod, InvalidJournalEntryValue, DebitsAndCreditsDoNotEqual};
 
 class DoubleEntryTest extends BaseTest
 {
